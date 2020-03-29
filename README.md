@@ -1,3 +1,8 @@
+
+Follow this tutorial https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+
+OR
+
 Clone this repository:
 
 ```
