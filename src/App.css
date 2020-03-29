@@ -1,0 +1,101 @@
+body {
+  background: #fff !important;
+}
+
+.App {
+  /* text-align: center; */
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.App-header {
+  font-size: 1rem;
+  background: #fff;
+  color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* .select-cont { */
+/* width: 600px; */
+/* max-width: 600px; */
+/* } */
+
+.select-round-text {
+  text-align: right;
+  line-height: 38px;
+}
+
+.select-round-dropdown {
+  width: 110px !important;
+}
+
+.tables-container {
+  /* width: 900px; */
+  background: #fff;
+}
+
+.tables-container .nav-tabs .nav-link {
+  background: rgb(233, 233, 233);
+}
+
+.tables-container .nav-tabs .nav-link.active {
+  background: rgb(0, 123, 255);
+  color: #fff;
+}
+
+.standings-table,
+.round-table {
+  /* width: 100%; */
+  background: #fff;
+  text-align: center;
+}
+
+.standings-table td {
+  min-width: 36px;
+}
+.standings-table .last-5 {
+  min-width: 160px;
+  width: 160px;
+}
+
+.game-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 0.875rem;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.game-W {
+  background: #4caf50;
+}
+.game-L {
+  background: #c62828;
+  background: #d32f2f;
+}
+
+.game-D {
+  background: #999;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background: #eee !important;
+  }
+
+  .App {
+    max-width: 960px;
+    margin: 40px auto;
+  }
+
+  .App-header {
+    border-radius: 0.5rem;
+  }
+}
