@@ -34,7 +34,7 @@ function App() {
 
         <div className="tables-container">
           <Tabs
-            defaultActiveKey="standings"
+            defaultActiveKey="matches"
             id="uncontrolled-tab-example"
             className="bg-white"
           >
